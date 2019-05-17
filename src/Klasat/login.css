@@ -1,8 +1,9 @@
 
 .root {
-  -fx-background-position: center;
-    -fx-background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Airplane_silhouette.svg");
 
+  -fx-background-position: center;
+    /*-fx-background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Airplane_silhouette.svg");*/
+    -fx-background-color: white;
 
 
 
@@ -15,18 +16,24 @@
     -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
 
 }
-
+#imgpane {
+    -fx-background-color: darkblue;
+}
 
 .label {
-    -fx-font-size: 13px;
+    -fx-font-size: 15px;
     -fx-font-weight: bold;
-    -fx-text-fill: #OE1D33;
+    -fx-text-fill: darkblue;
+
 }
-/*#login-text {
+.text {
+    -fx-text-fill: darkblue;
+}
+#login-text {
     -fx-font-size: 45px;
     -fx-font-family: "Arial Black";
     -fx-fill: blue;
-}*/
+}
 #actiontarget {
     -fx-fill: WHITE;
     -fx-font-weight: bold;
@@ -35,7 +42,7 @@
     -fx-text-fill: white;
     -fx-font-family: "Arial Narrow";
     -fx-font-weight: bold;
-    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-background-color: linear-gradient(#0000FF, #1b4f72 );
 
 
 }
