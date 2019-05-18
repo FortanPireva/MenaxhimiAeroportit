@@ -19,13 +19,14 @@ import javafx.stage.Stage;
 public class User extends Application {
 	public String emri;
 	public String mbiemri;
+	
 	@Override 
 	public void start(Stage primaryStage)
 	{
 		
 		StackPane pane=new StackPane();
 pane.getChildren().addAll(new Label("Pershendetje "+emri+" "+mbiemri));
-		
+
 		
 		Scene scene=new Scene(pane,200,200);
 		primaryStage.setTitle("Hello");
